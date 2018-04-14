@@ -26,8 +26,8 @@ SupportXPThemes=1
 CompilerSet=0
 CompilerSettings=0000000001001000001100
 CppCompiler=/D __WIN32__ /D X86 /D VCR_SUPPORT -Wall -fno-strict-aliasing -fomit-frame-pointer_@@_
-UseCustomMakefile=0
-CustomMakefile=
+UseCustomMakefile=1
+CustomMakefile=Makefile
 
 [Views]
 ProjectView=1
