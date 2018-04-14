@@ -1,0 +1,10 @@
+Makefile.win
+mupen64.exe
+mupen64_private.res
+debugview.ini
+mupen64.ini
+mupen64.layout
+stdout.txt
+stderr.txt
+mupen64.cfg
+mupen64.cache
