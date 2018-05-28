@@ -1719,7 +1719,7 @@ static void FLOOR_W_D()
 
 static void CVT_S_D()
 {
-   set_rounding();
+   set_trunc();
    *reg_cop1_simple[cffd] = *reg_cop1_double[cffs];
    interp_addr+=4;
 }
