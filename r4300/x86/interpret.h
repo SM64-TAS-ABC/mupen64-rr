@@ -184,7 +184,7 @@
 //#define INTERPRET_TRUNC_W_D
 //#define INTERPRET_CEIL_W_D
 //#define INTERPRET_FLOOR_W_D
-#define INTERPRET_CVT_S_D
+//#define INTERPRET_CVT_S_D
 //#define INTERPRET_CVT_W_D
 //#define INTERPRET_CVT_L_D
 //#define INTERPRET_C_F_D
@@ -223,7 +223,7 @@
 //#define INTERPRET_TRUNC_W_S
 //#define INTERPRET_CEIL_W_S
 //#define INTERPRET_FLOOR_W_S
-#define INTERPRET_CVT_D_S
+//#define INTERPRET_CVT_D_S
 //#define INTERPRET_CVT_W_S
 //#define INTERPRET_CVT_L_S
 //#define INTERPRET_C_F_S

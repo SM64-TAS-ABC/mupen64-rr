@@ -106,7 +106,7 @@ stop=1; \
 #define TagHi reg_cop0[29]
 #define ErrorEPC reg_cop0[30]
 
-#ifdef X86
+#if X86
 #ifdef _MSC_VER
 #define set_rounding() __asm fldcw rounding_mode
 #define set_trunc() __asm fldcw trunc_mode

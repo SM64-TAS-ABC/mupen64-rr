@@ -277,10 +277,12 @@ void gencvt_s_d()
    gencallinterp((unsigned long)CVT_S_D, 0);
 #else
    gencheck_cop1_unusable();
+   fldcw_m16((unsigned short*)&trunc_mode);
    mov_eax_memoffs32((unsigned long*)(&reg_cop1_double[dst->f.cf.fs]));
    fld_preg32_qword(EAX);
    mov_eax_memoffs32((unsigned long*)(&reg_cop1_simple[dst->f.cf.fd]));
    fstp_preg32_dword(EAX);
+   fldcw_m16((unsigned short*)&rounding_mode);
 #endif
 }
 
