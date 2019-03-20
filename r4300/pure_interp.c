@@ -1393,7 +1393,7 @@ static void FLOOR_W_S()
 
 static void CVT_D_S()
 {
-   set_rounding();
+   set_trunc();
    *reg_cop1_double[cffd] = *reg_cop1_simple[cffs];
    interp_addr+=4;
 }
